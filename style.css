@@ -1,0 +1,79 @@
+.page {
+    background-color: #1A1A1A;
+    margin: 0 auto 0;
+    padding: 0;
+    max-width: 120rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.abstract-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header {
+    background-color: #1C1C1C;
+    margin: 50px 162px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    max-width: 1596px;
+    color: white;
+    border-radius: 6.25rem;
+
+}
+
+.menu__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    column-gap: 26px;
+    font-size: 1.12rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+.menu__list-item {
+    transition: all 0.3s ease;
+}
+
+.menu__list-item_active {
+    padding: 12px 24px;
+    background-color: #262626;
+    border-radius: 5.12rem;
+}
+
+.header__auth-btn {
+    justify-self: end;
+}
+
+.header__link {
+    margin: 27px 0 34px 27px;
+    justify-self: start;
+    cursor: pointer;
+}
+
+.header__btn {
+    font-size: 1.12rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-right: 1.85rem;
+}
+
+.header__btn:last-child {
+    margin-right: 2.12rem;
+}
+
+.button {
+    padding: 14px 30px;
+    color: black;
+    background-color: #CAFF33;
+    border-radius: 5.12rem;
+}
