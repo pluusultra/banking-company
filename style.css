@@ -1,81 +1,77 @@
-.page {
-    background-color: #1A1A1A;
-    margin: 0 auto 0;
-    padding: 0;
-    max-width: 120rem;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+* {
     box-sizing: border-box;
 }
 
-.abstract-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+
+.page {
+    background-color: #1A1A1A;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 auto 0;
+    height: 100vh;
+    max-width: 1920px;
+    width: 100%;
+
 }
 
 .header {
-    background-color: #1C1C1C;
-    margin: 50px 162px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
     max-width: 1596px;
-    color: white;
-    border-radius: 6.25rem;
-    box-sizing: border-box;
-
+    background-color: #1C1C1C;
+    margin: 50px auto 0;
+    display: flex;
+    align-items: center;
+    outline: 1px solid #262626;
+    justify-content: space-between;
 }
-
-.menu__list {
+.menu {
     display: flex;
     list-style: none;
     padding: 0;
-    margin: 0;
-    column-gap: 26px;
-    font-size: 1.12rem;
-    cursor: pointer;
+    margin-right: 370px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
     align-items: center;
-}
-
-.menu__list-item {
-    transition: all 0.3s ease;
-}
-
-.menu__list-item_active {
-    padding: 12px 24px;
-    background-color: #262626;
-    border-radius: 5.12rem;
-}
-
-.header__auth-btn {
-    justify-self: end;
+    column-gap: 26px;
 }
 
 .header__link {
-    margin: 27px 0 27px 34px;
-    justify-self: start;
-    cursor: pointer;
+    margin: 27px 423px 27px 34px;
 }
 
-.header__btn {
-    font-size: 1.12rem;
-    border: none;
-    background-color: transparent;
-    color: white;
-    margin-right: 1.85rem;
+.menu__item_active {
+    padding: 12px 24px;
+    background-color: #262626;
+    border-radius: 82px;
 }
 
-.header__btn:last-child {
-    margin-right: 2.12rem;
+.header__buttons {
+    display: flex;
+    column-gap: 30px;
+    margin-right: 34px;
+    align-items: center;
 }
 
 .button {
-    padding: 14px 30px;
-    color: black;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.header__button {
     background-color: #CAFF33;
-    border-radius: 5.12rem;
+    padding: 14px 30px;
+    border-radius: 82px;
+}
+
+.header__button:first-child {
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-wrap: nowrap;
+    padding: 0;
+
 }

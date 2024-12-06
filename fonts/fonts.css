@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Lexend-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./Lexend-Medium.woff") format('woff');
+}
