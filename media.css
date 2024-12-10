@@ -1,0 +1,27 @@
+@media (max-width: 1440px) {
+    .header {
+        max-width: 1280px;
+        margin: 30px auto 0;
+    }
+    .header__link {
+        margin: 21px 346px 21px 24px;
+    }
+    .menu {
+        margin-right: 301px;
+        font-size: 14px;
+    }
+    .header__logo {
+        height: 30px;
+        width: 116px;
+    }
+    .menu__item_active {
+        padding: 10px 18px;
+    }
+    .header__button {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+    .header__buttons {
+        margin-right: 24px;
+    }
+}
